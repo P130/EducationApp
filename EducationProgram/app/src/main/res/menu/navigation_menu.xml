@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_profile"
+        android:icon="@mipmap/ic_person_white_24dp"
+        android:title="Profile"/>
+
+    <item android:id="@+id/nav_forum"
+        android:icon="@mipmap/ic_forum_white_24dp"
+        android:title="Forum"/>
+
+    <item android:id="@+id/nav_community"
+        android:icon="@mipmap/ic_group_white_24dp"
+        android:title="Community"/>
+
+    <item android:id="@+id/nav_logout"
+        android:icon="@mipmap/ic_lock_open_white_24dp"
+        android:title="Logout"/>
+
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/browse"
+        android:title="@string/browse" />
+
+    <item android:id="@+id/selfie"
+        android:title="@string/selfie" />
+
+
+</menu>

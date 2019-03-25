@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">EducationProgram</string>
+    <string name="browse">Browse</string>
+    <string name="selfie">Take a Selfie</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_educational">EducationalActivity</string>
+    <string name="title_activity_loginregister">LoginRegisterActivity</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="nothing">Nothing</string>
+    <string name="study">Study</string>
+    <string name="homework">Homework</string>
+    <string name="score">Score</string>
+    <string name="title">Reactions...</string>
+
+    <string name="decimals"><p>The decimal numeral system (also called base-ten positional numeral system, and occasionally called denary) is the standard system for denoting integer and non-integer numbers. It is the extension to non-integer numbers of the Hindu–Arabic numeral system. [1] The way of denoting numbers in the decimal system is often referred to as Decimal notation.[2]</p>
+<p>A decimal numeral, or just decimal, or, improperly decimal number, refers generally to the notation of a number in the decimal system, which contains a decimal separator (for example 10.00 or 3.14159). Sometimes these terms are used for the any numeral in the decimal system. A decimal may also refer to any digit after the decimal separator, such as in "3.14 is the approximation of π to two decimals".</p>
+<p>The numbers that may be represented in the decimal system are the decimal fractions, that is the fractions of the form a/10n, where a is an integer, and n is a nonnegative integer.</p>
+<p>The decimal system has been extended to infinite decimals, for representing any real number, by using an infinite sequence of digits after the decimal separator (see Decimal representation). In this context, the usual decimals are sometimes called terminating decimals. A repeating decimal, is an infinite decimal, that, after some place repeats indefinitely the same sequence of digits (for example 5.123144144144144... = 5.123144).[3] An infinite decimal represents a rational number if and only if it is a repeating decimal or is a finite decimal.</p></string>
+
+    <string name="naturals"><p>In mathematics, the natural numbers are those used for counting (as in "there are six coins on the table") and ordering (as in "this is the third largest city in the country"). In common language, words used for counting are "cardinal numbers" and words used for ordering are "ordinal numbers".</p>
+<p>Some definitions, including the standard ISO 80000-2, begin the natural numbers with 0, corresponding to the non-negative integers 0, 1, 2, 3, …, whereas others start with 1, corresponding to the positive integers 1, 2, 3, ….[2][3][4][5] Texts that exclude zero from the natural numbers sometimes refer to the natural numbers together with zero as the whole numbers, but in other writings, that term is used instead for the integers (including negative integers).</p>
+<p>The natural numbers are the basis from which many other number sets may be built by extension: the integers, by including (if not yet in) the neutral element 0 and an additive inverse (−n) for each nonzero natural number n; the rational numbers, by including a multiplicative inverse (1/n) for each nonzero integer n (and also the product of these inverses by integers); the real numbers by including with the rationals the limits of (converging) Cauchy sequences of rationals; the complex numbers, by including with the real numbers the unresolved square root of minus one (and also the sums and products of thereof); and so on.[7][8] These chains of extensions make the natural numbers canonically embedded (identified) in the other number systems.</p>
+<p>Properties of the natural numbers, such as divisibility and the distribution of prime numbers, are studied in number theory. Problems concerning counting and ordering, such as partitioning and enumerations, are studied in combinatorics.</p>
+<p>In common language, for example in primary school, natural numbers may be called counting numbers both to intuitively exclude the negative integers and zero, and also to contrast the discreteness of counting to the continuity of measurement, established by the real numbers.</p>
+<p>The natural numbers can, at times, appear as a convenient set of names (labels), that is, as what linguists call nominal numbers, foregoing many or all of the properties of being a number in a mathematical sense.</p></string>
+
+    <string name="roots">
+        <p>For the root symbols for gene and protein families, see Gene nomenclature § Symbol and name.</p>
+        <p>Roots of integer numbers from 0 to 10. Line labels = x. x-axis = n. y-axis = nth root of x.</p>
+        <p>In mathematics, an nth root of a number x, where n is usually assumed to be a positive integer, is a number r which, when raised to the power n yields x r^{n}=x,where n is the degree of the root. A root of degree 2 is called a square root and a root of degree 3, a cube root. Roots of higher degree are referred by using ordinal numbers, as in fourth root, twentieth root, etc.</p>
+        <p>For example: 3 is a square root of 9, since 32 = 9. −3 is also a square root of 9, since (−3)2 = 9.</p>
+        <p>A real number or complex number has n complex roots of degree n. While the roots of 0 are not distinct (all equaling 0), the n nth roots of any other real or complex number are all distinct. If n is even and x is real and positive, one of its nth roots is positive, one is negative, and the rest are either non-existent (in the case when n = 2) or complex but not real; if n is even and x is real and negative, none of the nth roots is real. If n is odd and x is real, one nth root is real and has the same sign as x , while the other roots are not real. Finally, if x is not real, then none of its nth roots is real.</p>
+        <p>Roots are usually written using the radical symbol or radix {\sqrt {\,\,}} with {\sqrt {x}}\!\, denoting the square root, {\sqrt[{3}]{x}}\!\, denoting the cube root, denoting the fourth root, and so on. In the expression {\sqrt[{n}]{x}}, n is called the index, {\sqrt {\,\,}} is the radical sign or radix, and x is called the radicand. Since the radical symbol denotes a function, when a number is presented under the radical symbol it must return only one result, so a non-negative real root, called the principal nth root, is preferred rather than others.</p>
+
+<p>A principal root is normally
+    defined according to preference (assuming the real root generally),
+    but a nice generic definition of a principal root (though not formally
+    defined or universally accepted) might be to say that it is always the complex root
+    that has the least value of the argument among all roots; where argument means the counterclockwise angle in
+    radians between the positive real axis and the line joining the complex number to the origin.</p></string>
+
+    <string name="equations"><p>In mathematics, an equation is a statement of an equality containing one or more variables. Solving the equation consists of determining which values of the variables make the equality true. Variables are also called unknowns and the values of the unknowns which satisfy the equality are called solutions of the equation. There are two kinds of equations: identity equations and conditional equations. An identity equation is true for all values of the variable. A conditional equation is true for only particular values of the variables.</p>
+<p>Each side of an equation is called a member of the equation.[citation needed] Each member will contain one or more terms.</p>
+<p>The equation, <b>Ax^{2}+Bx+C=y</b> has two members: <b>Ax^{2}+Bx+C</b> and <b>y</b>. The left member has three terms and the right member one term. The variables are x and y and the parameters are A, B, and C.</p>
+<p>An equation is analogous to a scale into which weights are placed. When equal weights of something (grain for example) are place into the two pans, the two weights cause the scale to be in balance and are said to be equal. If a quantity of grain is removed from one pan of the balance, an equal amount of grain must be removed from the other pan to keep the scale in balance. Likewise, to keep an equation in balance, the same operations of addition, subtraction, multiplication and division must be performed on both sides of an equation for it to remain an equality.</p>
+<p>In geometry, equations are used to describe geometric figures. As equations that are considered, such as implicit equations or parametric equations have infinitely many solutions, the objective is now different: instead of given the solutions explicitly or counting them, which is impossible, one uses equations for studying properties of figures. This is the starting idea of algebraic geometry, an important area of mathematics.</p>
+<p>Algebra studies two main families of equations: polynomial equations and, among them the special case of linear equations. Polynomial equations have the form P(x) = 0, where P is a polynomial. Linear equations have the form ax + b = 0, where a and b are parameters. To solve equations from either family, one uses algorithmic or geometric techniques, that originate from linear algebra or mathematical analysis. Algebra also studies Diophantine equations where the coefficients and solutions are integers. The techniques used are different and come from number theory. These equations are difficult in general; one often searches just to find the existence or absence of a solution, and, if they exist, to count the number of solutions.</p>
+<p>Differential equations are equations that involve one or more functions and their derivatives. They are solved by finding an expression for the function that does not involve derivatives. Differential equations are used to model processes that involve the rates of change of the variable, and are used in areas such as physics, chemistry, biology, and economics.</p>
+<p>The "=" symbol, which appears in every equation, was invented in 1557 by Robert Recorde, who considered that nothing could be more equal than parallel straight lines with the same length.
+</p></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

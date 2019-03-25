@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.christospaspalieris.educationprogram.ProfileActivity"
+    android:background="@drawable/profile_bg">
+
+    <ScrollView
+        android:id="@+id/scrollView_display"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:weightSum="1"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/Profile_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:fontFamily="casual"
+                android:text="Profile"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:elevation="12dp"
+                android:id="@+id/viewcircle"
+                app:cardCornerRadius="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:innerRadius="0dp"
+                android:shape="ring"
+                android:thicknessRatio="1.9">
+
+            <ImageView
+                android:id="@+id/userimage_display"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/profile_icon"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/firstName_display"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:background="@color/myColor5"/>
+
+
+            <TextView
+                android:id="@+id/lastName_display"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:background="@color/myColor5"/>
+
+            <TextView
+                android:id="@+id/age_display"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:background="@color/myColor5"/>
+
+            <TextView
+                android:id="@+id/role_display"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:textSize="18sp"
+                android:background="@color/myColor5"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.christospaspalieris.educationprogram.LoginFragment"
+   android:background="@drawable/register_bg">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="80dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Login to your account"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/EmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_email_white_24dp"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Enter your email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/TextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_lock_white_24dp"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Enter your password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/buttonSiginIn"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="155dp"
+                android:background="@drawable/round_button"
+                android:onClick="onClick"
+                android:text="Sign in" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
